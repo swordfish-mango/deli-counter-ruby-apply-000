@@ -4,7 +4,7 @@ katz_deli = []
 def line(ary)
   line_string = "The line is currently: "
   ary.each do |name, place|
-    num = place + 1
+    num = place.to_i + 1
     line_string += num.to_s
     line_string += ". #{name} "
   end
