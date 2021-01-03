@@ -7,9 +7,9 @@ def line(ary)
     line_string += "#{place}. #{name} "
   end
   if ary.empty?
-    "The line is currently empty."
+    return "The line is currently empty."
   else
-    line_string
+    return line_string
   end
 end
 
