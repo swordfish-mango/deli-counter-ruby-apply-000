@@ -20,7 +20,7 @@ end
 
 def now_serving(ary)
   if ary == []
-    puts "There is nobody waiting to be served."
+    puts "There is nobody waiting to be served!"
   else
     puts "Currently serving #{ary.shift}."
   end
