@@ -6,7 +6,7 @@ def line(ary)
   ary.each do |name, place|
     line_string += "#{place}. #{name} "
   end
-  if ary == []
+  if ary.empty?
     "The line is currently empty."
   else
     line_string
