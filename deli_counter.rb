@@ -18,3 +18,10 @@ def take_a_number(ary,name)
   puts "Welcome, #{name}. You are number #{ary.length} in line"
 end
 
+def now_serving(ary)
+  if ary == []
+    puts "There is nobody waiting to be served."
+  else
+    puts "Currently serving #{ary.shift}."
+  end
+end
