@@ -15,7 +15,7 @@ end
 
 def take_a_number(ary,name)
   ary.append(name)
-  puts "Welcome, #{name}. You are number #{ary.length} in line"
+  puts "Welcome, #{name}. You are number #{ary.length} in line."
 end
 
 def now_serving(ary)
