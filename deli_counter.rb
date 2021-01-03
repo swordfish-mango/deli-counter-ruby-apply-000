@@ -3,10 +3,8 @@ katz_deli = []
 
 def line(ary)
   line_string = "The line is currently: "
-  ary.each do |name, place|
-    num = place.to_i + 1
-    line_string += num.to_s
-    line_string += ". #{name} "
+  ary.each do |name, index|
+    line_string += "#{index}. #{name} "
   end
   if ary.empty?
     puts "The line is currently empty."
