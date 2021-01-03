@@ -2,9 +2,9 @@
 katz_deli = []
 
 def line(ary)
-  line_string = "The line is currently: "
+  line_string = "The line is currently:"
   ary.each_with_index do |name, index|
-    line_string += "#{index+1}. #{name} "
+    line_string += " #{index+1}. #{name}"
   end
   if ary.empty?
     puts "The line is currently empty."
